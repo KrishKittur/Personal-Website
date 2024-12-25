@@ -1,0 +1,68 @@
+.showcase {
+    position: relative;
+    width: 100%;
+    height: calc(100vh - 100px);
+    background-image: url(../images/robot.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    min-height: 400px;
+}
+
+.showcase .website-name {
+    color: white;
+    text-transform: uppercase;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px 15px;
+    border: 3px solid white;
+    font-weight: 300;
+}
+
+.content {
+    padding: 60px;
+    font-size: 1.5rem;
+    font-weight: 350;
+}
+
+.content .about {
+    align-items: stretch;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, .1);
+    background-color: white;
+    display: flex;
+}
+
+.content .about .text {
+    padding: 100px;
+    align-self: stretch;
+    flex: 1;
+    height: 100%;
+}
+
+.content .about .text h1 {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.content .about .text p {
+    line-height: 3.0rem;
+}
+
+.content .about .image {
+    align-self: stretch;
+    flex: 1;
+    background-image: url(../images/me.jpg);
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: center;
+}
+
+.footer {
+    padding: 20px;
+    background-color: white;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+}
