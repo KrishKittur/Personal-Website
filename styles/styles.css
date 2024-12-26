@@ -1,6 +1,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
+html {
+    scroll-behavior: smooth;
+}
 body {
     background-color: rgb(245, 245, 245);
 }
@@ -8,15 +11,17 @@ body {
 * {
     font-family: 'Lato', 'Times New Roman', Times, serif;
     font-weight: 200;
-    padding: 0px;
-    margin: 0px;
+    padding: 0rem;
+    margin: 0rem;
 }
 
 .navbar {
     display: flex;
     justify-content: space-around;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    box-shadow: 0 0 0.625rem rgba(0, 0, 0, .1);
+    background-color: white;
 }
 
 .navbar a {
@@ -25,4 +30,11 @@ body {
     text-decoration: none;
     font-size: 1.2rem;
     font-weight: 300;
+}
+
+.footer {
+    padding: 1.25rem;
+    background-color: white;
+    text-align: center;
+    box-shadow: 0 0 0.625rem rgba(0, 0, 0, .1);
 }

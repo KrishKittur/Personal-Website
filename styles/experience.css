@@ -1,0 +1,79 @@
+.content {
+    padding: 50px;
+}
+
+.content .experience-list .experience-item {
+    display: flex;
+    background-color: white;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, .1);
+    margin-bottom: 50px;
+    align-items: stretch;
+    height: 400px;
+}
+
+.content .experience-list .experience-item .experience-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    text-align: center;
+}
+
+.content .experience-list .experience-item .experience-image {
+    flex: 1;
+}
+
+.content .experience-list .experience-item .experience-text h1 {
+    margin-top: 100px;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.content .experience-list .experience-item .experience-text p {
+    margin-left: 40px;
+    margin-right: 40px;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+.content .experience-list .experience-item .experience-text img {
+    height: 50px;
+    width: auto;
+    transition: 250ms;
+    margin-bottom: 100px;;
+}
+
+.content .experience-list .experience-item .experience-image img {
+    height: 100%;
+    width: 100%;
+    float: left;
+    object-fit: cover;
+    object-position: center;
+}
+
+.content .experience-list .experience-item .experience-text a:hover img {
+    transform: scale(1.25);
+}
+
+/* Media */
+@media (max-width: 1000px) {
+    .content .experience-list .experience-item {
+        flex-direction: column;
+    }
+
+    .content .experience-list .experience-item {
+        height: auto;
+    }
+
+
+    .content .experience-list .experience-item .experience-image img {
+        width: 100%;
+        height: 50%;
+        float: left;
+        object-fit: cover;
+        object-position: center;
+    }
+}

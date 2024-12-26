@@ -1,0 +1,45 @@
+.content {
+    min-height: calc(100vh - 6.25rem);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.content .contact-box {
+    background-color: white;
+    display: flex;
+    box-shadow: 0 0 0.625rem 0 rgba(0, 0, 0, .1);
+    padding: 6.25rem;
+    margin: 2.5rem;
+}
+
+.content .contact-box .contact-info {
+    text-align: center;
+    padding: 2.5rem;
+    flex: 1;
+}
+
+.content .contact-box .contact-info img {
+    width: 3.125rem;
+    height: auto;
+    transition: 250ms;
+}
+
+.content .contact-box .contact-info h1 {
+    font-size: 1.875rem;
+    margin-top: 0.93rem;
+    margin-bottom: 0.93rem;
+}
+
+.content .contact-box .contact-info a:hover img {
+    transform: scale(1.25);
+}
+
+/* Media */
+@media (max-width: 62.5rem) {
+    .content .contact-box {
+        flex-direction: column;
+    }
+}
+
