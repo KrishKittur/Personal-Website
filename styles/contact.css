@@ -41,5 +41,9 @@
     .content .contact-box {
         flex-direction: column;
     }
+
+    .content .contact-box {
+        padding: 1rem;
+    }
 }
 
